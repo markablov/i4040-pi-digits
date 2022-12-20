@@ -1,0 +1,29 @@
+{
+  "name": "i4040-pi-digits",
+  "version": "1.0.0",
+  "author": "Mark Ablovatskii <mark.ablov@gmail.com>",
+  "license": "MIT",
+  "description": "Computation of first X digits of Pi, running at intel 4040 CPU",
+  "keywords": [
+    "intel",
+    "4004",
+    "4040",
+    "emulator",
+    "i4004",
+    "i4040",
+    "pi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markablov/i4040-pi-digits.git"
+  },
+  "homepage": "https://github.com/markablov/i4040-pi-digits",
+  "bugs": {
+    "url": "https://github.com/markablov/i4040-pi-digits/issues"
+  },
+  "type": "module",
+  "dependencies": {
+    "i40xx-asm": "^1.0.3",
+    "i40xx-emu": "github:markablov/i40xx-emu"
+  }
+}
